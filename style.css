@@ -31,6 +31,23 @@ header{
     cursor: pointer;
     text-decoration: underline;
 }
+@media screen and (max-width:900px) {
+    .navbar-btn{
+        display: none;
+    }
+    .menu{
+        margin-right: 40px;
+        cursor: pointer;
+    }
+   
+}
+@media screen and (min-width:900px) {
+    .menu {
+        display: none;
+        margin-right: 40px;
+    }
+}
+
 .header-main{
     display: flex;
     justify-content: space-evenly;
