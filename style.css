@@ -50,6 +50,7 @@ header{
 
 .header-main{
     display: flex;
+    flex-wrap: wrap-reverse;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -77,7 +78,20 @@ header{
 .btn:hover{
     cursor: pointer;
 
-}.btn:active{
+}
+
+@media screen and (max-width:1270px) {
+    .header-content h1{
+        font-size: 60px;
+    }
+    .header-content p{
+        font-size: 20px;
+    }
+    .header-content{
+        margin-left: 20px;
+    }
+}
+.btn:active{
     transform: scale(1.1);
 }
 .grey-card{
@@ -93,6 +107,7 @@ section{
 }
 .design-cards{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
     
@@ -135,6 +150,7 @@ section{
 }
 .experience-cards{ 
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
     margin-top: 80px;
@@ -186,7 +202,10 @@ section{
 }
 .projects-container {
 
-    margin: 100px 250px 100px 250px;
+    margin: 100px 20px 100px 20px ;
+    display: flex;
+    justify-content: space-around;
+    
     
 }
 .projects-content{
@@ -197,11 +216,7 @@ section{
     
 
 }
-.projects-top{
-    display: flex;
-    justify-content: space-between;
-    align-items:flex-start;
-}
+
 .bg-grey img{
     height: 250px;
     margin: 30px 20px;
@@ -240,15 +255,24 @@ img[src="./assets/4.jpg"]{
     padding-bottom: 40px;
 }
 .work-container{
-    margin: 100px 200px   ;
+    margin: 200px 200px   ;
 }
+@media screen and (max-width:1333px) {
+    .work-container{
+        margin: 200px 20px;;
+    }
+}
+
+
 .bottom-btn{
     border: none;
+    margin-bottom: 20px;
    
     
 }
 .bg-grey{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
 }
@@ -264,7 +288,9 @@ img[src="./assets/4.jpg"]{
     background-color:#1E1E1E;
    
     display: flex;
-    justify-content: start;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
     padding-top: 40px;
     padding-bottom: 40px;
     align-items: center;
@@ -273,10 +299,7 @@ img[src="./assets/4.jpg"]{
     display: flex;
     
     gap: 30px;
-    margin-left: 250px;
 }
 .footer-grey .logo{
     margin: 0;
-    margin-left: 250px;
-   
 }
