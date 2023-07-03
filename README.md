@@ -7,10 +7,13 @@ I'm Wasit Ali and this is my 15th project on HTML and CSS.
 
 ## 🖥 Preview
 
-![](./assets/2022-10-14-17-32-14.png)
-![](./assets/2022-10-14-17-32-25.png)
-![](./assets/2022-10-14-17-33-01.png)
-![](./assets/2022-10-14-17-33-17.png)
+![](./assets/preview-1.png)
+
+![](./assets/preview-2.png)
+
+![](./assets/preview-3.png)
+
+![](./assets/preview-4.png)
 
 🚀 [Live Preview](https://funny-crepe-13e14b.netlify.app/)
 
@@ -18,8 +21,8 @@ I'm Wasit Ali and this is my 15th project on HTML and CSS.
 
 - Css flexbox and its property usecase.
 - Used cards of different sizes.
-- Learnt about z-index usecase.
-- Handled mobile Responsive With Media Queries.
+- Learnt about z-index usecase more deeply.
+- Handled mobile Responsive with Media Queries and Flexbox.
 
 ## ⏲ Time taken to finish the project
 
