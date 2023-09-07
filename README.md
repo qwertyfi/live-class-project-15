@@ -15,7 +15,7 @@ I'm Wasit Ali and this is my 15th project on HTML and CSS.
 
 ![](./assets/preview-4.png)
 
-🚀 [Live Preview](https://funny-crepe-13e14b.netlify.app/)
+🚀 [Live Preview](https://live-class-project-15-five.vercel.app/)
 
 ## 🛠️ What I have learned in this project?
 
